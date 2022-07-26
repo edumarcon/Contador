@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(11, 77, 113);
+}
+
+h1{
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(224, 217, 207);
+}
+
+div{
+    width: 25%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(224, 217, 207);
+}
+
+div p.stopwatch{
+    font-size: 50px;
+}
+
+.toPause{
+    color: red;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button.start{
+    background-color: rgb(7, 124, 7);
+}
+
+button.pause{
+    background-color: rgb(194, 4, 4);
+}
+
+button.zero{
+    background-color: rgb(194, 99, 4);
+}
